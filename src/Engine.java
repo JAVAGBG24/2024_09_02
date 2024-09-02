@@ -2,7 +2,10 @@ public class Engine {
     private int horsepower;
     private boolean isOn;
 
-    // Konstruktor
+    // Konstrukto
+    // konstruktorn talar om hur vi får skapa ett objekt av klassen Engine
+    // i det här fallet så måste vi ange hästkrafter och vi sätter ett initialt värde
+    // på isOn till false = motorn är avstängd från start
     public Engine(int hp) {
         horsepower = hp;
         isOn = false;
